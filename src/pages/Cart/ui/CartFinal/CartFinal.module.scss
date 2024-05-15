@@ -1,0 +1,58 @@
+.CartFinal {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+
+.buttons {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 20px;
+}
+.button {
+    outline: none;
+    text-decoration: none;
+    border: none;
+    width: max-content;
+    min-width: 160px;
+    height: 24px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+    &:nth-child(1) {
+        background: red;
+    }
+    &:nth-last-child(1) {
+        background: green;
+    }
+
+
+    &:hover {
+        background-color: var(--splitter);
+    }
+}
+
+.BaskedSummary {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.Skeleton{
+    width: 100%;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import 'theme/dark.scss';
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+:root {
+    ::-webkit-scrollbar {
+        width: 12px; /* Ширина полосы прокрутки для браузеров на основе WebKit, таких как Chrome и Safari */
+    }
+    ::-webkit-scrollbar-thumb {
+        background-color: #919191; /* Цвет ползунка прокрутки */
+        border-radius: 6px; /* Скругление углов ползунка прокрутки */
+    }
+    margin: 0;
+    padding: 0;
+}

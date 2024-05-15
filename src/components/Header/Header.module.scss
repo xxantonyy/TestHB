@@ -1,0 +1,27 @@
+.Header {
+    box-sizing: border-box;
+    background: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 40px;
+    gap: 4rem;
+    position: sticky;
+    height: 48px;
+    border-bottom: px solid var(--hover-btn);
+    z-index: 100;
+}
+
+.navLinks {
+    outline: none;
+    text-decoration: none;
+    color: white;
+    
+    &:hover {
+        color: var(--hover-btn);
+    }
+}
+
+.HeaderLogo{
+    border-radius: 16px;
+}

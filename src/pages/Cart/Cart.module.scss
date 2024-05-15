@@ -1,0 +1,25 @@
+.Cart{
+    background-color: var(--bg-color);
+    height: calc(100vh - 48px - 40px - 20px - 20px);
+    padding: 40px;
+}
+
+.cartWrapper{
+    background-color: var(--primary-color);
+    border-radius: 16px;
+    padding: 20px;
+    height: 90%;
+    display: grid;
+    grid-template-columns: 75% 25%;
+}
+
+.products {
+    padding: 5px;
+    overflow: auto;
+}
+.cartFinal {
+    padding: 5px;
+    padding-left: 10px;
+    overflow: auto;
+    text-align: center;
+}

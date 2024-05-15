@@ -1,0 +1,8 @@
+.Profile {
+    height: calc(100vh - 48px - 80px);
+    background-color: var(--bg-color);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 40px;
+}

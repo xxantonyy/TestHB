@@ -1,0 +1,8 @@
+.Main{
+    background-color: var(--bg-color);
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 48px - 80px);
+    padding: 40px;
+    text-align: center;
+}
